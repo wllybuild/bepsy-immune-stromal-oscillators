@@ -1,0 +1,12 @@
+full: []
+equal_budget: [equal_budget]
+without_hamiltonian: [hamiltonian]
+without_stuart_landau: [stuart_landau]
+without_dissipation: [dissipation]
+without_multiplex: [multiplex]
+without_dual_rate: [dual_rate]
+without_classifier: [classifier]
+without_sparse_readout: [sparse_readout]
+without_hamiltonian_and_stuart_landau: [hamiltonian, stuart_landau]
+random_coupling: [adaptive_coupling]
+

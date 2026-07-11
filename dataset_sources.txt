@@ -1,0 +1,7 @@
+HMP2 IBDMDB 2019 release | HMP2 DUA | https://ibdmdb.org
+TCGA-COAD GDC R36 | NIH GDC terms | https://portal.gdc.cancer.gov/projects/TCGA-COAD
+TCGA-READ GDC R36 | NIH GDC terms | https://portal.gdc.cancer.gov/projects/TCGA-READ
+GSE116222 | NCBI GEO terms | https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE116222
+GSE150115 | NCBI GEO terms | https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE150115
+GSE181919 | NCBI GEO terms | https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE181919
+
