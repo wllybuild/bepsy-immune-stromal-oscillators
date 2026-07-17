@@ -74,18 +74,9 @@ Expected HMP2 NRMSE values are `0.103 ± 0.014` at 30 days, `0.131 ± 0.022` at 
 
 `configs/ablations.yaml` enumerates the equal-budget model, removals of the Hamiltonian generator, Stuart–Landau prior, dissipation potential, multiplex coupling, dual-rate forecaster, classifier, sparse readout, the joint physics removal, and a random-coupling null. Each entry is intended to change only the named component.
 
-## Quality checks
-
-The test suite combines mathematical unit tests, data-pipeline integration tests, training integration tests, and statistical regression tests.
-
-```bash
-pytest -q
-ruff check .
-```
-
 ## Repository map
 
-`code/bepsy/model` contains the encoder, generator, forecaster, heads, and assembled world model. `code/bepsy/data` handles irregular subject records and masked transformations. `code/bepsy/training` contains optimization and atomic state persistence. `code/bepsy/commands` provides preparation, training, and evaluation entry points. Experiment values live under `configs`, and archive URLs live only in `dataset_sources.txt`.
+`code/bepsy/model` contains the encoder, generator, forecaster, heads, and assembled world model. `code/bepsy/data` handles irregular subject records and masked transformations. `code/bepsy/cohorts.py` supplies archive-specific channel transformations and continuous-time alignment. `code/bepsy/baselines.py` contains the forecasting control families. `code/bepsy/analysis.py` implements the reported trajectory, phase, calibration, coupling, and stability measures. `code/bepsy/synthetic.py` defines the Stuart–Landau calibration regimes. `code/bepsy/training` contains optimization and atomic state persistence. `code/bepsy/commands` provides preparation, training, and evaluation entry points. Experiment values live under `configs`, and verified archive URLs live only in `dataset_sources.txt`.
 
 ## License
 
